@@ -32,7 +32,6 @@ body {
   text-align: center;
   line-height: calc(var(--bh-button-h) * 1.5);
   background-repeat: no-repeat;
-  background-position: auto;
   background-size: 100%;
   image-rendering: crisp-edges;
   background-image: url("../img/button.png");
