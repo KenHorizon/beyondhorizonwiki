@@ -2,7 +2,7 @@
   max-width: 100%;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: lighter;
+  font-variant: small-caps;
 }
 :root {
   --bh-button-w:160px;
