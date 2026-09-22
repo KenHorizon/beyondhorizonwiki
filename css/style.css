@@ -32,10 +32,9 @@ body {
   text-align: center;
   background-repeat: no-repeat;
   background-position: center;
-  margin: 0.1lem;
   image-rendering: crisp-edges;
   background-image: url("../img/button.png");
-  width: var(--bh-button-w);
+  width: calc(var(--bh-button-w) * 2);
   height: calc(var(--bh-button-h) * 2);
 }
 .bh-button:hover {
@@ -48,7 +47,6 @@ body {
   text-align: center;
   background-repeat: no-repeat;
   background-position: center;
-  margin: 0.1lem;
   image-rendering: crisp-edges;
   background-image: url("../img/clicked_button.png");
   width: calc(var(--bh-button-w) * 2);
