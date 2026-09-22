@@ -31,11 +31,12 @@ body {
 .bh-button {
   text-align: center;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: auto;
+  background-size: 100%;
   image-rendering: crisp-edges;
   background-image: url("../img/button.png");
-  width: calc(var(--bh-button-w) * 2);
-  height: calc(var(--bh-button-h) * 2);
+  width: calc(var(--bh-button-w) * 1.5);
+  height: calc(var(--bh-button-h) * 1.5);
 }
 .bh-button:hover {
   background-image: url("../img/button.png");
@@ -43,14 +44,8 @@ body {
 .bh-button:active {
   background-image: url("../img/clicked_button.png");
 }
-.bh-button-selflink {
-  text-align: center;
-  background-repeat: no-repeat;
-  background-position: center;
-  image-rendering: crisp-edges;
+.bh-button.selflink {
   background-image: url("../img/clicked_button.png");
-  width: calc(var(--bh-button-w) * 2);
-  height: calc(var(--bh-button-h) * 2);
 }
 
 .tables {
