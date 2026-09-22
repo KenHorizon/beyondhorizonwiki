@@ -28,8 +28,8 @@ body {
 .bh-button {
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain; 
-  padding: 40px;
+  background-size: auto; 
+  padding: 20px;
   image-rendering: crisp-edges;
   background-image: url("../img/button.png");
   max-width: 160px;
@@ -44,8 +44,8 @@ body {
 .bh-button-selflink {
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain; 
-  padding: 40px;
+  background-size: auto; 
+  padding: 20px;
   image-rendering: crisp-edges;
   background-image: url("../img/clicked_button.png");
   max-width: 160px;
