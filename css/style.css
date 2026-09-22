@@ -29,9 +29,9 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; 
-  background-image: url("../img/button.png");
   padding: 80px;
-  image-rendering:crisp-edges;
+  image-rendering: crisp-edges;
+  background-image: url("../img/button.png");
 }
 .bh-button:hover {
   background-image: url("../img/hovered_button.png");
@@ -43,9 +43,9 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; 
-  background-image: url("../img/clicked_button.png");
   padding: 80px;
-  image-rendering:crisp-edges;
+  image-rendering: crisp-edges;
+  background-image: url("../img/clicked_button.png");
 }
 
 .tables {
