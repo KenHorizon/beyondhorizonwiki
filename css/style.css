@@ -27,10 +27,6 @@ body {
   width: 90%;
 }
 
-c {
-
-}
-
 .bh-button {
   text-align: center;
   line-height: calc(var(--bh-button-h) * 1.5);
