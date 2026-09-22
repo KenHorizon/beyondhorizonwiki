@@ -1,0 +1,9 @@
+RewriteEngine On
+
+# 1. Redirect actual .html URLs to the clean extensionless version (SEO friendly)
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s([^.]+)\.html\sHTTP [NC]
+RewriteRule ^ %1 [R=301,L]
+
+# 2. Internally map the clean URL back to the underlying .html file
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*)$ $1.html [NC,L]
