@@ -3,7 +3,10 @@
   color: white;
   font-family: open-sans;
 }
-
+:root {
+  --bh-button-w:160px;
+  --bh-button-h:24px;
+}
 @font-face {
 	font-family: open-sans;
 	src: url("../fonts/open-sans.ttf");
@@ -32,8 +35,8 @@ body {
   margin: 0.1lem;
   image-rendering: crisp-edges;
   background-image: url("../img/button.png");
-  width: 160px;
-  height: 24px;
+  width: var(--bh-button-w);
+  height: calc(var(--bh-button-h) * 2);
 }
 .bh-button:hover {
   background-image: url("../img/button.png");
@@ -48,8 +51,8 @@ body {
   margin: 0.1lem;
   image-rendering: crisp-edges;
   background-image: url("../img/clicked_button.png");
-  width: 160px;
-  height: 24px;
+  width: calc(var(--bh-button-w) * 2);
+  height: calc(var(--bh-button-h) * 2);
 }
 
 .tables {
