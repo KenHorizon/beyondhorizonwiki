@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <div class="wrap-text" style="margin: 0 auto;">
+    <div class="wrap-text contents" style="margin: 0 auto;">
       <header>
         <h1 style="text-align: center">
           <web-header>Beyond Horizon: Wiki</web-header>
@@ -34,10 +34,14 @@
           Level System are a <b>Progression</b> that sacrifice your experience points into <b>Level Points</b>, Reaching max required points will Level Up and gain <b>1 Points</b>
         </p>
       </div>
-      <h3>Classes:</h3>
+      <h3>Usage</h3>
+      <p>
+        Clicking <b>"+"</b> sacrifice some points and added to level xp, reaching required or 100% will level up gaining <b style="color: green;">1 points</b>
+      </p>
+      <h3>Attributes</h3>
       <div class="list-group">
         <a class="list-item" onclick="classSet0.hidden^=1"
-          >Assassin
+          >Strenght
           <div id="classSet0" hidden>
             <p>Passive: Assasin's Presssence</p>
             <li>
@@ -50,105 +54,7 @@
             </li>
           </div>
         </a>
-        <a class="list-item" onclick="classSet1.hidden^=1"
-          >Marksman
-          <div id="classSet1" hidden>
-            <p>Passive: Eagle's Eye</p>
-            <li>
-              <ul>
-                Ranged weapon is increased by 10%
-              </ul>
-              <ul>
-                Usetime of ranged weapon is reduced by 20%
-              </ul>
-            </li>
-          </div>
-        </a>
-        <a class="list-item" onclick="classSet2.hidden^=1"
-          >Caster
-          <div id="classSet2" hidden>
-            <p>Passive: Densed Mana</p>
-            <li>
-              <ul>
-                Gain +100 Max Mana
-              </ul>
-              <ul>
-                Increase all Magic Damage by (0.5% Max Mana)%
-              </ul>
-            </li>
-          </div>
-        </a>
-        <a class="list-item" onclick="classSet3.hidden^=1"
-          >Striker
-          <div id="classSet3" hidden>
-            <p>Passive: Fighting Will</p>
-            <li>
-              <ul>
-                Increase 10% damage dealt by Melee Weapon
-              </ul>
-              <ul>
-                Gain (50% Bonus Physical Attack)% to deal extra 50% damage
-              </ul>
-            </li>
-          </div>
-        </a>
-        <a class="list-item" onclick="classSet4.hidden^=1"
-          >Vanguard
-          <div id="classSet4" hidden>
-            <p>Passive: Armor Redemption</p>
-            <li>
-              <ul>
-                Increase armor by 10%
-              </ul>
-              <ul>
-                Attack deal extra (10% Armor) True Damage
-              </ul>
-            </li>
-          </div>
-        </a>
-        <a class="list-item" onclick="classSet5.hidden^=1"
-          >Defender
-          <div id="classSet5" hidden>
-            <p>Passive: Castle Defender</p>
-            <li>
-              <ul>
-                Gain 5% Damage Reduction and 20% Knockback Resistance
-              </ul>
-              <ul>
-                Gain (10% Armor)% chances to block a incoming attack
-              </ul>
-            </li>
-          </div>
-        </a>
-        <a class="list-item" onclick="classSet6.hidden^=1"
-          >Support
-          <div id="classSet6" hidden>
-            <p>Passive: Bless of Celestial</p>
-            <li>
-              <ul>
-                Increase Mana regeneration and Health regeneration by 100%
-              </ul>
-              <ul>
-                Healing Effect Increased by 20%
-              </ul>
-              <ul>
-                If healing a ally below 30% gain extra (50% Max health) shiled
-                last for 10 seconds
-              </ul>
-              <ul>
-                if shielding a ally below 30% heal 5% missing health
-              </ul>
-            </li>
-          </div>
-        </a>
       </div>
-
-      <h3>Traits:</h3>
     </div>
   </body>
-  <br />
-  <footer>
-    <input type="checkbox" id="theme-toggle" />
-    <label for="theme-toggle">Dark Mode</label>
-  </footer>
 </html>
