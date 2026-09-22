@@ -1,15 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Beyond Horizon Wiki</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/KenHorizon/CSS-Assets/bootstrap.css"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
+
+<?php
+include("header.php");
+include("star_background.php");
+?>
   <body>
     <header>
       <h1 style="text-align: center">
@@ -22,7 +17,7 @@
       </div>
     </header>
     <br />
-    <div class="wrap-text contents">
+    <div class="wrap-text contents" style="margin: 0 auto;">
       <hr />
       <div class="wrap-text container">
         <div class="card-1" id="centered">
@@ -37,7 +32,7 @@
           ability, and more.
         </p>
         <div class="list-group">
-          <a href="class_and_traits.html" class="list-item">Class & Traits</a>
+          <a href="level_systems.html" class="list-item">Class & Traits</a>
           <a href="#" class="list-item">Ability & Skills</a>
           <a href="#" class="list-item">Items</a>
           <a href="#" class="list-item">Mobs</a>
