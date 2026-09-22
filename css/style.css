@@ -1,11 +1,18 @@
 * {
   max-width: 100%;
   color: white;
-  font-family: Arial, Helvetica, sans-serif
+  font-family: open-sans;
 }
+
+@font-face {
+	font-family: open-sans;
+	src: url("../fonts/open-sans.ttf");
+}
+
 body {
   background-color: rgb(1, 10, 19);
 }
+
 .display-card {
   width: 100%;
   flex: 50%;
