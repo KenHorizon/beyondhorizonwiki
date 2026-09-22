@@ -25,7 +25,12 @@ body {
 }
 
 .bh-button {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; 
   background-image: url("../img/button.png");
+  width: 160;
+  height: 20;
 }
 .bh-button:hover {
   background-image: url("../img/hovered_button.png");
