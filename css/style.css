@@ -33,6 +33,7 @@ body {
   width: 160;
   height: 20;
   padding: 80px;
+  image-rendering: pixelated;
 }
 .bh-button:hover {
   background-image: url("../img/hovered_button.png");
@@ -41,7 +42,14 @@ body {
   background-image: url("../img/clicked_button.png");
 }
 .bh-button-selflink {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; 
   background-image: url("../img/clicked_button.png");
+  width: 160;
+  height: 20;
+  padding: 80px;
+  image-rendering: pixelated;
 }
 
 .tables {
