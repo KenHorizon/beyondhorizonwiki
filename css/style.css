@@ -1,7 +1,8 @@
 * {
   max-width: 100%;
   color: white;
-  font-family: open-sans;
+  font-family: sans-serif;
+  font-weight: 100;
 }
 :root {
   --bh-button-w:160px;
