@@ -31,7 +31,7 @@ body {
   background-size: cover; 
   background-image: url("../img/button.png");
   width: 160;
-  height: 20;
+  height: 24;
   padding: 80px;
   image-rendering:crisp-edges;
 }
@@ -47,7 +47,7 @@ body {
   background-size: cover; 
   background-image: url("../img/clicked_button.png");
   width: 160;
-  height: 20;
+  height: 24;
   padding: 80px;
   image-rendering:crisp-edges;
 }
