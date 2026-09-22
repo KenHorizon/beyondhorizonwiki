@@ -49,6 +49,7 @@ body {
   background-image: url("../img/clicked_button.png");
   width: 160px;
   height: 24px;
+  margin: 1px;
 }
 
 .tables {
