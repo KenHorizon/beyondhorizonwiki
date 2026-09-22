@@ -26,12 +26,12 @@ body {
 
 
 .bh-button {
+  text-align: center;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: auto; 
+  margin: 0.1lem;
   image-rendering: crisp-edges;
   background-image: url("../img/button.png");
-  margin: 1px;
   width: 160px;
   height: 24px;
 }
@@ -42,14 +42,14 @@ body {
   background-image: url("../img/clicked_button.png");
 }
 .bh-button-selflink {
+  text-align: center;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: auto;
+  margin: 0.1lem;
   image-rendering: crisp-edges;
   background-image: url("../img/clicked_button.png");
   width: 160px;
   height: 24px;
-  margin: 1px;
 }
 
 .tables {
