@@ -30,6 +30,7 @@ body {
 
 .bh-button {
   text-align: center;
+  line-height: -2px;
   background-repeat: no-repeat;
   background-position: auto;
   background-size: 100%;
@@ -39,7 +40,7 @@ body {
   height: calc(var(--bh-button-h) * 1.5);
 }
 .bh-button:hover {
-  background-image: url("../img/button.png");
+  background-image: url("../img/hovered_button.png");
 }
 .bh-button:active {
   background-image: url("../img/clicked_button.png");
