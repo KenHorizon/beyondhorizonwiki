@@ -30,7 +30,7 @@ body {
 
 .bh-button {
   text-align: center;
-  line-height: -2px;
+  line-height: calc(var(--bh-button-h) * 1.5);
   background-repeat: no-repeat;
   background-position: auto;
   background-size: 100%;
