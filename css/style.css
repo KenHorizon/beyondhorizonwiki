@@ -37,7 +37,6 @@ body {
 }
 .bh-button:hover {
   background-image: url("../img/button.png");
-  border: solid white 1px;
 }
 .bh-button:active {
   background-image: url("../img/clicked_button.png");
