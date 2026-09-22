@@ -32,6 +32,7 @@ body {
   background-image: url("../img/button.png");
   width: 160;
   height: 20;
+  padding: 80px;
 }
 .bh-button:hover {
   background-image: url("../img/hovered_button.png");
