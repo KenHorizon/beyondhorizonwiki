@@ -24,6 +24,19 @@ body {
   width: 90%;
 }
 
+.bh-button {
+  background-image: url("../img/button.png");
+}
+.bh-button:hover {
+  background-image: url("../img/hovered_button.png");
+}
+.bh-button:active {
+  background-image: url("../img/clicked_button.png");
+}
+.bh-button-selflink {
+  background-image: url("../img/clicked_button.png");
+}
+
 .tables {
   width: fit-content;
   display: flex;
