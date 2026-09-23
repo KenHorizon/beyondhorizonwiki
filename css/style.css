@@ -6,6 +6,7 @@
 :root {
   --bh-button-w:160px;
   --bh-button-h:24px;
+  --wiki-content-border-color: #f5f5f5;
 }
 @font-face {
 	font-family: open-sans;
@@ -16,15 +17,27 @@ body {
   background-color: rgb(1, 10, 19);
 }
 
+hr {
+  height: 1px;
+  background-color: var(--border-color-base,#a2a9b1);
+  border: 0;
+  margin: 0.2em 0
+}
+
 .display-card {
   width: 100%;
   flex: 50%;
 }
+
 .contents {
   padding: 5px;
   color: white;
   background-color: rgb(6, 31, 54);
   width: 90%;
+}
+
+a.bh-button {
+  text-decoration: none;
 }
 
 .bh-button {
@@ -60,6 +73,17 @@ body {
   padding: 10px;
 }
 
+.bh-headlines {
+  margin: 0;
+  line-height: 1.375;
+  margin-bottom: 0px;
+}
+
+.bh-body h1,.bh-body h2 {
+    border-bottom: 1px solid var(--wiki-content-border-color);
+    font-family: var(--wiki-heading-font-family)
+}
+
 .web-header {
   color: rgb(176, 178, 255);
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
@@ -74,5 +98,5 @@ ul {
   line-height: 0.1;
 }
 ul::before {
-  content: "-";
+  content: "•";
 }
