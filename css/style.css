@@ -1,5 +1,10 @@
 :root {
-  --font-size: 14px;
+  --damage-color: #ff4d4d;
+  --physical-color: #FF8C34;
+  --magic-color: #00B0F0;
+  --movement-speed-color: #21B053;
+  --health-color: #21B053;
+  --font-size: 16px;
   --bh-button-w:160px;
   --bh-button-h:24px;
   --wiki-content-border-color: #f5f5f5;
@@ -40,7 +45,28 @@ header {
 a {
   text-decoration: none;
 }
- 
+
+.bh-link {
+  color: rgb(253, 210, 52);
+}
+
+.container {
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+  gap: 10px;
+}
+
+.bh-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+}
+
 ul a:link {
   color: rgb(176, 178, 255);
   font-weight: bolder;
